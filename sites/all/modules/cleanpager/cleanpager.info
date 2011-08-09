@@ -1,0 +1,10 @@
+name = Clean Pagination
+description = Enables clean URLs for pagination.
+core = 7.x
+
+; Information added by drupal.org packaging script on 2011-07-25
+version = "7.x-1.0-alpha4"
+core = "7.x"
+project = "cleanpager"
+datestamp = "1311619015"
+

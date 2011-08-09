@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the asin module.
+ *
+ */
+
+/**
+ * Implements of hook_install().
+ */
+function asin_install() {
+}
+
+/**
+ * Implements of hook_uninstall().
+ */
+function asin_uninstall() {
+}
+
+
+/**
+* Implements hook_field_schema().
+*/
+function asin_field_schema($field) {
+  $columns = array(
+    'asin' => array('type' => 'varchar', 'length' => 32, 'not null' => FALSE)
+  );
+  return array(
+    'columns' => $columns,
+  );
+}

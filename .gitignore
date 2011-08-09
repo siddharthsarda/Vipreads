@@ -1,0 +1,15 @@
+sites/default/settings.php
+sites/default/files
+cache
+backup
+cgi-bin
+.htaccess
+images
+index.hh
+postinfo.html
+_private
+_vti_bin
+_vti_cnf
+_vti_inf.html
+_vti_pvt
+_vti_txt

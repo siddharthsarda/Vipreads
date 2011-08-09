@@ -1,0 +1,14 @@
+7.x-1.0-beta2
+Issue #1199644 by willieseabrook: get rid of php warnings
+Issue #1199642 by willieseabrook & Kristen Pol: fix taxonomy logic for current node
+Issue #1200836 by willieseabrook: Put drupal_add_js/css in hook_init
+Issue #1200836 by Kristen Pol: get rid of extraneous drupal_add_js/css
+
+7.x-1.0-beta1
+#1125576 by Kristen Pol: get rid of php warnings
+#1150396 by Kristen Pol: remove unneeded parameter to get rid of warning
+#1181214 by Kristen Pol: change to work with taxonomy module changes
+miscellaneous changes to get rid of php warnings and work with D7 array changes
+
+Featured Content Module 7.x-dev
+  * Basic Featured Content module (migrated from D6)
