@@ -88,11 +88,11 @@ function simpleclean_feed_icon($variables) {
   $twitterText=t("Follow us on Twitter");
   $outputText='';
   if ($image = theme('image', array('path' => 'misc/feed.png', 'width' => 16, 'height' => 16, 'alt' => $text))) {
-    $outputText = l($image, $variables['url'], array('html' => TRUE, 'attributes' => array('class' => array('feed-icon'), 'title' => $text)));
- 
-  $path = path_to_theme();
+    $outputText = l($image, 'http://feeds.feedburner.com/vipreads', array('html' => TRUE, 'attributes' => array('class' => array('feed-icon'), 'title' => $text)));
+  $facebook_icon = '<span ><a class="facebook-icon" title ="Find us on Facebook" href="http://www.facebook.com/pages/VIPReads/233082033400581"></a></span>';
   $twitter_icon = '<span ><a class="twitter-icon" href="http://twitter.com/vipreads"></a></span>';
-  return $twitter_icon.$outputText;
+  //echo $facebook_icon.$twitter_icon.$outputText;
+  return $facebook_icon.$twitter_icon.$outputText;
   }
 }
 
